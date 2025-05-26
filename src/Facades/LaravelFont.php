@@ -25,6 +25,6 @@ class LaravelFont extends Facade
 {
     protected static function getFacadeAccessor(): string
     {
-        return \Apsonex\LaravelFont\LaravelFontManager::class;
+        return \Apsonex\LaravelFont\LaravelFont::class;
     }
 }
